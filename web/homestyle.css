@@ -1,0 +1,21 @@
+.main_h {
+    width: 400px;
+    heigth:auto;
+    background-color:#500000;
+    text-align:center;
+    color:white;
+    border:10px groove #777777;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:300%;
+}
+.sub_h {
+    text-align:center;
+}
+.large_logo {
+    width:25%;
+    height:auto;
+    margin:5px;
+   float:left;
+}
