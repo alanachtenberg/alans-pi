@@ -1,14 +1,30 @@
+#container{
+	min-height:100%;
+	position:relative;
+	padding-bottom:40px;
+}
+html,body{
+	height:100%;
+	width: 100%
+	padding-bottom:50px;
+	background-color:#AAAAAA;
+}
+hr{
+	width:500px;
+	border: 5px outset #777777;
+}
 .main_h {
-    width: 400px;
-    heigth:auto;
-    background-color:#500000;
-    text-align:center;
-    color:white;
-    border:10px groove #777777;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size:300%;
+	width:400px;
+	heigth:auto;
+	background-color:#500000;
+	text-align:center;
+	color:white;
+	border:10px groove #777777;
+	border-radius:20px;
+	margin-top: 30px;	
+	margin-left: auto;
+	margin-right: auto;
+	font-size:300%;
 }
 .sub_h {
     text-align:center;
@@ -18,4 +34,31 @@
     height:auto;
     margin:5px;
    float:left;
+}
+.pic{
+	width:300px;
+	height:auto;
+	padding: 0px;
+	margin: 10px;
+	border:5px solid  #777777;
+	border-radius:5px;
+
+}
+.footer{position: absolute;
+	bottom:10px;
+	margin-top:25px;
+	margin-bottom:10px
+	margin-left:auto;
+	margin-right:auto;
+	height: 30px;
+	width: 100%;
+	}
+#github{
+	float:center;
+	margin-left:5%;
+	margin-right:5%;
+}
+#picture_table{
+	float:center;
+	margin:auto;
 }
