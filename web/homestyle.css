@@ -1,16 +1,17 @@
 #container{
-	min-height:100%;
+	min-height:110%;
+	max-width:100%;
 	position:relative;
 	padding-bottom:40px;
 }
 html,body{
 	height:100%;
-	width: 100%
-	padding-bottom:50px;
+	width: 99%;
+	padding-bottom:20px;
 	background-color:#AAAAAA;
 }
 hr{
-	width:500px;
+	width:75%;
 	border: 5px outset #777777;
 }
 .main_h {
@@ -19,7 +20,7 @@ hr{
 	background-color:#500000;
 	text-align:center;
 	color:white;
-	border:10px groove #777777;
+	border:10px double #777777;
 	border-radius:20px;
 	margin-top: 30px;	
 	margin-left: auto;
@@ -27,7 +28,10 @@ hr{
 	font-size:300%;
 }
 .sub_h {
+	margin-top:20px;
+	margin-bottom:auto;
     text-align:center;
+	
 }
 .large_logo {
     width:25%;
@@ -36,27 +40,55 @@ hr{
    float:left;
 }
 .pic{
-	width:300px;
+	width:325px;
 	height:auto;
+	max-height:245px;
 	padding: 0px;
 	margin: 10px;
 	border:5px solid  #777777;
 	border-radius:5px;
 
 }
-.footer{position: absolute;
-	bottom:10px;
-	margin-top:25px;
-	margin-bottom:10px
-	margin-left:auto;
-	margin-right:auto;
-	height: 30px;
+.footer{position: fixed;
+	left:0px;
+	bottom:0px;
+	margin-left:0px;
+	height: 40px;
 	width: 100%;
+	background-color:#500000;
+	
 	}
-#github{
-	float:center;
-	margin-left:5%;
-	margin-right:5%;
+.footer_logo{
+	position: absolute;
+	right:0px;
+	height:35px;
+	width:auto;
+	padding:3px;
+}
+#github{ position:absolute;
+	left:50%;
+	bottom:10px;
+	heigth:90%;
+	width:auto;
+	margin:auto;
+	margin-left:-80px;
+	font-size:20px;
+}
+#email{
+	position:absolute;
+	left:5px;
+	bottom:10px;
+	font-size:medium;
+	color:white;
+	
+}
+#home_url{
+	position:absolute;
+	right:45px;
+	bottom:10px;
+	font-size:Large;
+	color:white;
+
 }
 #picture_table{
 	float:center;
