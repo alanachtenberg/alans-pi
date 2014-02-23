@@ -4,10 +4,12 @@
 	position:relative;
 	padding-bottom:40px;
 }
-html,body{
+body{
 	height:100%;
 	width: 99%;
 	padding-bottom:20px;
+	background-image:url("resources/background.jpg");
+	background-repeat: repeat-x;
 	background-color:#AAAAAA;
 }
 hr{
@@ -48,6 +50,18 @@ hr{
 	border:5px solid  #777777;
 	border-radius:5px;
 
+}
+.pic:hover {
+	border:10px solid #777777;
+	width:375;
+	height:auto;
+	max-height:500px;
+	margin:auto;
+	transition: width .2s ease-in-out;
+	color:white;
+}
+.pic:hover .sub_h{
+	color:white;
 }
 .footer{position: fixed;
 	left:0px;
